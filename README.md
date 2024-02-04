@@ -19,3 +19,24 @@ git pull -> siempre se debe hacer un pull antes de push. es para verificar si ha
 
 git push -> es para subir los cambios realizados.
 
+### actividad_operaciones 
+
+aqui se realizan operaciones aritmeticas basicas: 
+suma, resta, multiplicacion, division. tambien aperaciones logicas
+mayo que, menor que, igual que...
+ademas se aprende a ingresar valores por consola.
+input() es una funcion en la que python espera la entrada en teclado y luego se presione enter.
+
+
+### condicionales 
+en una condición no puede haber mas de 2 else, si puede tener condicionales anidados
+se utiliza el if, else y elif que es equivalente a (else if(){}) de java 
+
+### operaciones de asignacion
+tiene las misma funciones que en java la diferencia esta en que hay mas tipos de asignaciones
+/=
+%=
+*=
+-=
++= 
+ 
