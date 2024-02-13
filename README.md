@@ -90,6 +90,8 @@ A diferencias de las listas y de las tuplas los diccionarios no se rigen por la 
 el DICT es un constructor
 
 ### conjuntos 
+![img.png](img.png)
+
 En Python, un conjunto es una estructura de datos que almacena elementos desordenados. Los elementos del conjunto tampoco están indexados. 
 Como una lista, un conjunto permite la adición y eliminación de elementos. Sin embargo, hay algunas características únicas 
 que definen un conjunto y lo separan de otras estructuras de datos:
