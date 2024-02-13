@@ -136,4 +136,22 @@ La Herencia es la característica de los lenguajes orientados a objetos, que le 
 El término polimorfismo tiene origen en las palabras poly (muchos) y morfo (formas), y aplicado a la programación hace referencia a que los objetos pueden tomar diferentes formas. ¿Pero qué significa esto?
 Pues bien, significa que objetos de diferentes clases pueden ser accedidos utilizando la misma interfaz, mostrando un comportamiento distinto (tomando diferentes formas) según cómo sean accedidos.
 Cabe resaltar, que la técnica de polimorfismo de la POO significa la capacidad de tomar más de una forma. Una operación puede presentar diferentes comportamientos en diferentes instancias. El comportamiento depende de los tipos de datos utilizados en la operación. 
- 
+
+### seguridad
+(__)privado
+(_)protegido
+para acceder a estas variables se utiliza set y get, creando metodos como en java
+pero hay una manera que es mas estilo python 
+se crea una funcion con el nombre de la variable
+y para desirle que es un get se utiliza el property ejemplo:
+
+________________________________
+esto permite que se pueda aceder mas rapido
+@property <-- esto indica que es un get 
+def ejemplo(self):
+  return self.__ejemplo
+_______________________________________
+metodo set
+@ejemplo.sett
+def ejemplo(self, valor):
+ self.__ejemplo = valor
