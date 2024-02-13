@@ -114,4 +114,26 @@ se puede cambiar por otra pero por buena practica no se hace.
 también se instancian las clases igual que en java:
 hibrida = bicicleta("rojo", 4, 27.5)
 manual = bicicleta ("morado", 1, 29)
+
+### Encapsulamiento
+el encapsulamiento posee las siguientes características:
+el encapsulamiento hace referencia a la capacidad que tiene un objeto de ocultar su estado, de manera que sus datos solo se puedan modificar por los métodos accesores.
+
+ 
+
+La encapsulación consiste en denegar el acceso a los atributos y métodos internos de la clase desde el exterior. En Python no existe, pero se puede simular precediendo atributos y métodos con dos barras bajas __ como indicando que son "especiales".
+
+ 
+
+En el siguiente ejemplo tenemos la clase llamada Empleado, después entre paréntesis colocamos self, nombre y salario, y debajo asignamos self.nombre = nombre, self.proyecto = proyecto, self.salario = salario
+
+### Herencia
+![img_1.png](img_1.png)
+
+La Herencia es la característica de los lenguajes orientados a objetos, que le permite a una clase (llamada la subclase o la clase hijo) heredar todos los miembros de otra (llamada la superclase o la clase padre).
+
+### polimorfismo 
+El término polimorfismo tiene origen en las palabras poly (muchos) y morfo (formas), y aplicado a la programación hace referencia a que los objetos pueden tomar diferentes formas. ¿Pero qué significa esto?
+Pues bien, significa que objetos de diferentes clases pueden ser accedidos utilizando la misma interfaz, mostrando un comportamiento distinto (tomando diferentes formas) según cómo sean accedidos.
+Cabe resaltar, que la técnica de polimorfismo de la POO significa la capacidad de tomar más de una forma. Una operación puede presentar diferentes comportamientos en diferentes instancias. El comportamiento depende de los tipos de datos utilizados en la operación. 
  
