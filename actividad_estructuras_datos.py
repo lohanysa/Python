@@ -15,14 +15,14 @@ def anadir():
         print("ya existe")
 
 def modificar ():
-    nombre = input("ingrese nombre para modificar el numero")
+    nombre = input("ingrese nombre: ")
     if nombre in agenda:
         numero=int(input("ingrese nuevo numero: "))
         agenda[nombre] = numero
     else:
         print(f" {nombre} no existe ")
 def borrar():
-    nombre=input("ingrese un nombre")
+    nombre=input("ingrese un nombre: ")
     if nombre in agenda:
        resultado = agenda.pop(nombre), 'se elimino ', nombre, 'con exito '
     else:
@@ -39,6 +39,8 @@ while menu != 5:
     print("4. Borrar")
     print("5. Salir")
     menu = int(input("digite su opcion(ingrese el numero): "))
+    while menu not in (1,2,3,4,5):
+        menu=int(input("digite solo los numero de la opciones: "))
     match menu:
         case 1: print(consultar())
         case 2: anadir()

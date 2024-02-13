@@ -103,4 +103,15 @@ para agregar elementos al conjunto se utiliza eñ add()
  para eliminar elementos se utiliza el metodo discard()y para limpiar el conjunto
 se utiliza el clear
 
+## Creacion de Clases
+la palabra clave para la clases es *class*.
+Es lo mismo que en java solo que aqui hay un metodo en especifico 
+para inicalizar los atributos que es 
+**def__inicial__(self, atributos)**
+se utiliza la palabra self como el this, la diferencia es la palabra self
+se puede cambiar por otra pero por buena practica no se hace.
+
+también se instancian las clases igual que en java:
+hibrida = bicicleta("rojo", 4, 27.5)
+manual = bicicleta ("morado", 1, 29)
  
