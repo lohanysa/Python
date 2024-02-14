@@ -43,7 +43,7 @@ class Producto:
         return self.precio * cantidad
 
 
-    #aqui sobre escribo el metodo to string
+    #aqui sobrescribo el metodo to string
 
     def __str__(self):
         return 'codigo: ' + str(self.__codigo) + ', nombre: ' + str(self.__nombre) +', precio: ' + str(self.__precio)
@@ -54,5 +54,3 @@ if __name__ == "__main__":
     p2 = Producto(2, "Producto 2", 11.5)
     p3 = Producto(3, "Producto 3", 46)
 
-    #p1.nombre = "que pez"
-    print(p1.calcular(22))

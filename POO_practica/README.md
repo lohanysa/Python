@@ -76,17 +76,22 @@ sino un paquete.
 ### if "__main__"=="__main__"
 explicaccion de la practiva uno y dos
 La clase Producto y la clase Pedido se definen en el nivel superior.
-Dentro del bloque if __name__ == "__main__":, se crean las instancias de Producto y Pedido y se llama a sus métodos correspondientes (total_pedido() y mostrar_productos()).
+Dentro del bloque if __name__ == "__main__": se crean las instancias de Producto y Pedido y se llama a sus métodos correspondientes (total_pedido() y mostrar_productos()).
 Esto garantiza que el código dentro del bloque if __name__ == "__main__": solo se ejecute si el archivo se ejecuta directamente como un script, no si se importa como un módulo.
 en resumen evita que las lineas fuera de la clase o metodos se ejecuten si se llaman de manera externa
 
 ### Lista informacion adicional
 Este ejemplo muestra diferentes formas de crear listas en Python:
 
-Crear una lista vacía en Python: mi_lista_vacia = [].
-Crear una lista con elementos en Pyhton: frutas = [«manzana», «banana», «cereza», «uva»].
-Crear una lista con diferentes tipos de datos en Python: mi_lista_mixta = [1, «Hola», True, 3.14].
-Crear una lista de números del 1 al 5 usando una comprensión de lista en Python: numeros = [x for x in range(1, 6)].
-Crear una lista de cadenas utilizando el método split() en una cadena en Python: palabras = mi_cadena.split().
-Crear una lista de números pares utilizando un bucle for en Python: numeros_pares = [i for i in range(2, 11, 2)].
-Crear una lista de listas en Python(una lista de listas de números): lista_de_listas = [[1, 2, 3], [4, 5, 6], [7, 8, 9]].
+- Crear una lista vacía en Python: mi_lista_vacia = [].
+- Crear una lista con elementos en Pyhton: frutas = [«manzana», «banana», «cereza», «uva»].
+- Crear una lista con diferentes tipos de datos en Python: mi_lista_mixta = [1, «Hola», True, 3.14].
+- Crear una lista de números del 1 al 5 usando una comprensión de lista en Python: numeros = [x for x in range(1, 6)].
+- Crear una lista de cadenas utilizando el método split() en una cadena en Python: palabras = mi_cadena.split().
+- Crear una lista de números pares utilizando un bucle for en Python: numeros_pares = [i for i in range(2, 11, 2)].
+- Crear una lista de listas en Python(una lista de listas de números): lista_de_listas = [[1, 2, 3], [4, 5, 6], [7, 8, 9]].
+
+__RECORDATORIO__
+En Python, una instancia es un objeto creado a partir de una clase, que contiene sus propios atributos y métodos. 
+Una clase es como un molde o plantilla para crear objetos con propiedades y comportamientos específicos. 
+Cuando creas una instancia de una clase, estás creando un objeto único con sus propios valores de atributos y métodos heredados de la clase.
